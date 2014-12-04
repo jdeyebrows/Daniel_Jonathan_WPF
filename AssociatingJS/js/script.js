@@ -7,7 +7,7 @@ console.log(yearBorn); */
 
 /* alert("yearBorn"); */
 
-    /* var age; // decraration
+    /* var age; // declaration
     age = 35; // definition */
 // storage container = value
 
@@ -43,6 +43,15 @@ console.log(yearBorn); */
 
 console.log(fullName); */
 
+    var a = "6";
+    var b = "7";
+    var result = a + b;
+    console.log(result); /* concatenating string */
+
+    var a = 6;
+    var b = 7;
+    var result = a + b;
+    console.log(result); /* adding the numbers */
 
 
 
