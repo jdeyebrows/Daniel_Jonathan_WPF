@@ -35,7 +35,11 @@ alert("yearBorn");
 
 // The average is the sum of the numbers divided by the number of items.
     var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
-    console.log(average);
+    // console.log(average);
+    var firstName = "Jonathan";
+    var lastName = "Daniel";
+    var fullName = firstName + lastName;
 
+console.log(fullName);
 
 
