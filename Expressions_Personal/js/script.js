@@ -9,3 +9,6 @@ var a = 12.75; //Length
 var b = 11.5; //Width
 var c = 2; //Height
 
+var d = a * b * c; //Volume
+console.log(d);
+
