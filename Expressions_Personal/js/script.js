@@ -12,13 +12,13 @@ var c = 2; //Height
 var d = a * b * c; //Volume
 console.log(d);
 
-prompt("Enter Length")
+var width = prompt("We are calculating the needed area for an inset MIDI controller space. \n Please enter the width.")
 
 
 
-prompt("Enter Width")
+var height = prompt("Please enter the height.")
 
 
 
-prompt("Enter Height")
+var userInput = prompt("Enter Height")
 
