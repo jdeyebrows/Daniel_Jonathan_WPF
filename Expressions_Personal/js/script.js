@@ -12,3 +12,13 @@ var c = 2; //Height
 var d = a * b * c; //Volume
 console.log(d);
 
+prompt("Enter Length")
+
+
+
+prompt("Enter Width")
+
+
+
+prompt("Enter Height")
+
