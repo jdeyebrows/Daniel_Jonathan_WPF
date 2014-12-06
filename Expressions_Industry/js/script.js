@@ -18,8 +18,8 @@ var days2 = prompt("Enter the new number of days to determine how many developer
 
 
 
-var volume = developers1 * days1 * days2; //calculates with that info
+var developers2 = developers1 * days1 / days2; //calculates with that info
 
 //console.log(volume); //prints it to console
 
-alert("The required volume for your MIDI controller inset space is" + " " + volume + " " + "inches");
+alert("You" + " " + developers2 + " " + "to finish the website on schedule.");
