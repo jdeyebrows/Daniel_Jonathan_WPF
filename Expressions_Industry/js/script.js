@@ -1,5 +1,5 @@
 /**
- * Jonathan Daniel Expressions_Personal 12/4/14.
+ * Jonathan Daniel Expressions_Industry 12/6/14.
  */
 
 /* This is calculator for the number of web developers needed to build a website in a given number of days. */
