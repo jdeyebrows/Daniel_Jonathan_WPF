@@ -22,4 +22,4 @@ var developers2 = developers1 * days1 / days2; //calculates with that info
 
 //console.log(volume); //prints it to console
 
-alert("You" + " " + developers2 + " " + "to finish the website on schedule.");
+alert("You will need" + " " + developers2 + " " + "developers to finish the website in" + days2 + "days.");
