@@ -7,15 +7,15 @@ to make your desired amount of money considering your wage and fee. */
 
 
 
-var wage = prompt("We are calculating the number of web developers needed to complete a website in a given number of days based on a given set of variables . \nPlease enter the number of developers of your first given variables.")
+var wage = prompt("This is calculator for the amount of hours you will have to work to make your desired amount of money \nconsidering how much you hake and hour and fee. \nPlease enter the number of developers of your first given variables.")
 
 
 
-var numberhr = prompt("Enter the number of days the first number of developers will need to complete the website.")
+var numberhr = prompt("Enter the amount per hour you have agreed to be paid.")
 
 
 
-var mycut = prompt("Enter the new number of days to determine how many developers you will need \nto complete the website in that number of days")
+var mycut = prompt("Enter the dollar amount you have agreed to pay.")
 
 
 
