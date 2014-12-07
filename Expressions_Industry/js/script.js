@@ -23,5 +23,5 @@ var developers2 = developers1 * days1 / days2;
 
 console.log(developers2); //prints it to console
 
-alert("You will need" + " " + developers2 + " " + "developers to finish the website in" + days2 + "days.");
+alert("You will need" + " " + developers2 + " " + "developers to finish the website in" + " " + days2 + " " + "days.");
 //This line of code alerts the user and displays the accurate calculated answer.
