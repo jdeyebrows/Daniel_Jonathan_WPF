@@ -22,5 +22,5 @@ var volume = width * height * length; //calculates the variables collected from 
 
 console.log(volume); //prints it to console
 
-alert("The required volume for your MIDI controller inset space is" + " " + volume + " " + "inches");
+alert("The required volume for your MIDI controller inset space is" + " " + volume + " " + "inches sq");
 //This line of code alerts the user and provides the correct calculation of the the variables entered.
