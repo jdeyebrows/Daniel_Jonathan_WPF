@@ -7,7 +7,7 @@ to make your desired amount of money considering your wage and fee. */
 
 
 
-var wage = prompt("This is calculator for the amount of hours you will have to work to make your desired amount of money \nconsidering how much you hake and hour and fee. \nPlease enter The total dollar amount you want to be paid for this job.")
+var wage = prompt("This is calculator for the amount of hours you will have to work to make your desired amount of money \nconsidering how much you make an hour minus my cut from your total. \nPlease enter The total dollar amount you want to be paid for this job.")
 
 
 
@@ -23,4 +23,4 @@ var numHrs = wage / dollarhr - mycut; //calculates with that info
 
 //console.log(volume); //prints it to console
 
-alert("You will need to work" + " " + numHrs + " " + "making" + " " + dollarhr + " " + " dollars an hour to make the" + " " + wage + " " + "dollars.");
+alert("You will need to work" + " " + numHrs + " " + "hours making" + " " + dollarhr + " " + "dollars per hour to make the" + " " + wage + " " + "dollars.");
