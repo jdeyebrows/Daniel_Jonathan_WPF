@@ -7,7 +7,7 @@ to make your desired amount of money considering your wage and fee. */
 
 
 
-var wage = prompt("This is calculator for the amount of hours you will have to work to make your desired amount of money \nconsidering how much you make an hour minus my cut from your total. \nPlease enter The total dollar amount you want to be paid for this job.")
+var wage = prompt("This is a calculator for the amount of hours you will have to work to make your desired amount of money \nconsidering how much you make an hour minus my cut from your total. \nPlease enter The total dollar amount you want to be paid for this job.")
 
 
 
