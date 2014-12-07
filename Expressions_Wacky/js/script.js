@@ -27,7 +27,7 @@ var mycut = prompt("Enter the dollar amount we have agreed would be my cut as co
 
 var numHrs = wage / dollarhr - mycut; //calculates the variables entered into the prompts using division and subtraction.
 
-console.log(volume); //prints it to console
+console.log(numHrs); //prints it to console
 
-alert("You will need to work" + " " + numHrs + " " + "hours making" + " " + dollarhr + " " + "dollars per hour to make the" + " " + wage + " " + "dollars.");
+alert("You will need to work" + " " + numHrs + " " + "hours to make your desired amount of money.")
 //This line of code displays an alert to the user with the accurately calculated results based on the entered variables.
