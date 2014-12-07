@@ -2,7 +2,13 @@
  * Jonathan Daniel Expressions_Wacky 12/6/14.
  */
 
-/* This is calculator for the amount of hours you will have to work
+/* Think of any paycheck amount, any pay rate, and any commission per sale.
+and apply those choices in the variables below.
+ */
+
+
+
+/* This is a calculator for the amount of hours you will have to work a weird and dangerous job
 to make your desired amount of money considering your wage and fee. */
 
 
