@@ -19,8 +19,9 @@ var days2 = prompt("Enter the new number of days to determine how many developer
 
 
 var developers2 = developers1 * days1 / days2;
-//This line of code uses multiplication and division to determint the number of web developers will be needed to complete the website in the new number of days.
+//This line of code uses multiplication and division to determine the number of web developers will be needed to complete the website in the new number of days.
 
 console.log(developers2); //prints it to console
 
 alert("You will need" + " " + developers2 + " " + "developers to finish the website in" + days2 + "days.");
+//This line of code alerts the user and displays the accurate calculated answer.
