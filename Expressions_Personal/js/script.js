@@ -7,7 +7,7 @@
 
 
 var width = prompt("We are calculating the needed area for an inset MIDI controller space. \nPlease enter the width in inches without unit.")
-//this line of code records the length of the MIDI controller.
+//this line of code records the with of the MIDI controller.
 
 
 var height = prompt("Please enter the height in inches without unit.")
@@ -15,7 +15,7 @@ var height = prompt("Please enter the height in inches without unit.")
 
 
 var length = prompt("Enter the Length in inches without unit")
-//this
+//this line of code records the
 
 
 var volume = width * height * length; //calculates the variables collected from the 3 prompts using multiplication to determine area.
