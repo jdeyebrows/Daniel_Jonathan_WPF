@@ -17,7 +17,7 @@ var carCapacity = prompt ("Now, enter your car's gas tank capacity:");
 //This line of code ot to be used to collect the vehicle's fuel capacity.
 
 //If the vehicle has enough fuel  or is fuel efficient to make it on the current amount of fuel.
-if(){
+if(){gasEfficiency * carCapacity / quageReading > 200){
     console.log("Yes, you can make it without stopping for gas!");
 }else{
     console.log("You only have X gallons of gas in your tank, better get gas now while you can!");
