@@ -18,9 +18,12 @@ var modelPoly = prompt("Enter the number of polygons in your character model.");
 //This portion of code collects the value for the number of polygons in the model the user wishes to use.
 
 var machRtn = prompt("Has your freeloading friend just showed up with your machine. true or false");
+//This portion or code collects the statement true or false as to whether the user's friend has returned with their machine.
 
-if(modelPoly <= machLimit || machRtn === true){
-    console.log("You can use the character model with little or no problems.");
-}else{
-    console.log("You'd better find a lower poly character model.")
+if(modelPoly <= machLimit || machRtn === true){ //This line of code executes the logical operator and evaluates the poly limit and
+    //poly number in the character model and uses the OR operator to factor in whether or not the friend brings the machine back in time.
+    console.log("You can use the character model with little or no problems."); //This line of code prints the result to the console.
+}else{ //This line of code executes the last resort in the condition that none of the above variables are in favor of the user's character
+    //model being used.
+    console.log("You'd better find a lower poly character model.") ////This line of code prints the result to the console.
 }
