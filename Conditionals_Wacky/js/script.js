@@ -17,11 +17,9 @@ var machLimit = prompt("You have been commissioned to design a 3D scene for a sh
 var modelPoly = prompt("Enter the number of polygons in your character model.");
 //This portion of code collects the value for the number of polygons in the model the user wishes to use.
 
-var machRtn = prompt("Has your freeloading friend showed up with your machine yet? Yes or No");
+var machRtn = prompt("Has your freeloading friend just showed up with your machine. true or false");
 
-var Yes = true;
-
-if(modelPoly <= machLimit || machRtn === Yes){
+if(modelPoly <= machLimit || machRtn === true){
     console.log("You can use the character model with little or no problems.");
 }else{
     console.log("You'd better find a lower poly character model.")
