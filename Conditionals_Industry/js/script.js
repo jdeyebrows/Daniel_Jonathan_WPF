@@ -19,10 +19,11 @@ var salaryNeg = prompt("The employer offers you a $2,000 raise in a year. If the
 
 if(salaryReq <= salaryNeg){ //This line of code compares the value of the entered variables from the prompt.
     console.log("I'd be happy to take this job!"); //This line of code prints the results of that statement to the console.
-}else if(salaryNeg >= salaryMin){ //
-    console.log("Considering the new negotiated salary and the $2,000 raise in a year, I am willing to take this job.")
-}else{
-    console.log("I appreciate the opportunity, but I think I will try some other options.")
+}else if(salaryNeg >= salaryMin){ //This line or code evaluates the second set of variable in the event that the results from
+//the first set of variables is false.
+    console.log("Considering the new negotiated salary and the $2,000 raise in a year, I am willing to take this job.") //This line of code prints the results of that statement to the console.
+}else{ //This line of code executes to final option considering both the first and second sets of conditions is false.
+    console.log("I appreciate the opportunity, but I think I will try some other options.") //This line of code prints the results of that statement to the console.
 }
 
 
