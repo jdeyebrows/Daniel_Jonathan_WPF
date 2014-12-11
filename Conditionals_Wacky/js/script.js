@@ -14,6 +14,10 @@
 var machLimit = prompt("You have been commissioned to design a 3D scene for a short film. What is the highest number of polygons you can have in a character model for it to work effectively in the scene.");
 //This portion of code collects the information about the polygon limit of the secondary machine.
 
+if (machLimit == ""){
+    prompt("You must enter something for this field.");
+}
+
 var modelPoly = prompt("Enter the number of polygons in your character model.");
 //This portion of code collects the value for the number of polygons in the model the user wishes to use.
 
