@@ -12,6 +12,14 @@ var salaryReq = prompt("Please let us know your desired salary.")
 
 var salaryMin = prompt("Please let us know the minimum salary you will accept.")
 
-var salaryRs = prompt("enter 3rd prompt here")
+var salaryNeg = prompt("The employer offers you a $2,000 raise in a year. If the new negotiated salary isn't within $2000 of your minimum salary, you will not to take the job. Please enter the new negotiated salary.")
+
+if(salaryReq <= salaryNeg){
+    console.log("I'd be happy to take this job!");
+}else if(salaryNeg + 2000 >= salaryMin){
+    console.log("Considering the new negotiated salary is within $2,000 of my asking salary, I am willing to take this job.")
+}else{
+    console.log("I appreciate the opportunity, but I think I will try some other options.")
+}
 
 
