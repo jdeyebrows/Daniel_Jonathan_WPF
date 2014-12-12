@@ -11,7 +11,7 @@ Go To Training Week #3
 
 //Create our "fruit bowl" array
 
-var bowlOfFruit = ["apple","banana","pear","peach","pear","tomato","kiwi","pear"];
+var bowlOfFruit = ["apple","apple","banana","pear","peach","pear","tomato","kiwi","pear","banana","pear"];
 
 //This console logs the WHOLE array
 console.log(bowlOfFruit);
@@ -93,7 +93,7 @@ var pearNumber= 0;
 // for(initialize a counting variable; codition to test; incremental change)
 // { code to run each loop around }
 
-for(var i=0;i<8; i++ ){
+for(var i=0;i<bowlOfFruit.length; i++ ){
     console.log("Inside of the loop"+i);
     console.log(bowlOfFruit[i]);
 
