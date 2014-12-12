@@ -27,8 +27,8 @@
       <file leaf-file-name="week3.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/week3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9404762" vertical-offset="216" max-vertical-offset="795">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.10714286" vertical-offset="141" max-vertical-offset="1290">
+              <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -233,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/week3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9404762" vertical-offset="216" max-vertical-offset="795">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.10714286" vertical-offset="141" max-vertical-offset="1290">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
