@@ -28,3 +28,21 @@ console.log(bowlOfFruit.length);
 //What was the last index number of the array, using the length property?
 //Last index number is ALWAYS one less than the length.
 //bowlOfFruit.length - 1  =Last index #.
+
+
+//Create a variable to track the number of pears we have
+var totalNumPears = 0;
+
+
+//Test each item and see if it is a pear
+//(if(condition to test) { code to run if true }
+
+if(bowlOfFruit[0]==="pear"){
+    //this will run if true
+    //add to our counting variable
+    console.log("This fruit is a pear!");
+    totalNumPears++;
+}else{
+    //This code will run if the if statement is FALSE!
+    console.log("This fruit is not a pear!");
+}
