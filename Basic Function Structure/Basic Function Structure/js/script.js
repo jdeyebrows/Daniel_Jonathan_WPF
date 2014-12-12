@@ -1,8 +1,8 @@
 /* Basic Function Structure Jonathan Daniel 12/12/14 */
 //Functions - Function Execution
-function outptMsg(){
-    console.log("Hello World");
-}
+
+
+var width = 5;
 
 function calcArea(){
     var width = 20;
@@ -11,6 +11,4 @@ function calcArea(){
     console.log(area);
 }
 
-calcArea();
-calcArea();
 calcArea();
