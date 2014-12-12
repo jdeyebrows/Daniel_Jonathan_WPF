@@ -28,5 +28,5 @@
     console.log("You can use the character model with little or no problems."); //This line of code prints the result to the console.
 }else{ //This line of code executes the last resort in the condition that none of the above variables are in favor of the user's character
     //model being used.
-    console.log("You'd better find a lower poly character model.") ////This line of code prints the result to the console.
+    console.log("You'd better find a lower poly character model unless your friend shows up with your computer.") ////This line of code prints the result to the console.
 }
