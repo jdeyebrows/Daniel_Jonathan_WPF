@@ -111,3 +111,33 @@ for(var i=0;i<bowlOfFruit.length; i++ ){
 }
 
 console.log("Total number of pears in the bowl is "+pearNumber);
+
+
+//Using conditionals to validate prompts
+//Ask the user for input
+var userInput = prompt("Please type in your name.");
+
+//How do I test if the user left it blank?
+if(userInput===""){
+    //The user left it blank
+    //Re-prompt the user
+    userInput=prompt("Please do not leave blank. What is your name?");
+
+}
+
+console.log("Welcome "+userInput);
+
+//Test if the user types in a number
+//isNaN() - Is Not A Number
+
+console.log(isNaN("test"));
+console.log(isNaN(7));
+
+var userNumber = prompt("Type in any number");
+//Test if it is a number
+if(isNaN(userNumber)){
+
+    //This is a text string
+    //Re-prompt the user for a number
+    userNumber= prompt("Only type in numbers");
+}
