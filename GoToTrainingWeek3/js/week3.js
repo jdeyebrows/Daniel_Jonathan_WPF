@@ -79,3 +79,35 @@ if(bowlOfFruit[3]==="pear"){
 
 //Report how many pears we have
 console.log("There are "+totalNumPears+" number of pears in the bowl");
+
+//We want the computer to do the "heavy lifting" for us
+
+
+//Create a new tracking variable for number of pears
+var pearNumber= 0;
+
+
+//Create a loop for repetitive code
+
+//For Loop - is great for when you know how many times it should run
+// for(initialize a counting variable; codition to test; incremental change)
+// { code to run each loop around }
+
+for(var i=0;i<8; i++ ){
+    console.log("Inside of the loop"+i);
+    console.log(bowlOfFruit[i]);
+
+    //Test each fruit if it is a pear
+    if(bowlOfFruit[i]==="pear") {
+        //Add to our pear total
+        pearNumber++;
+        console.log("This fruit is a pear!");
+    }else{
+        console.log("This fruit is not a pear!");
+
+    }
+
+
+}
+
+console.log("Total number of pears in the bowl is "+pearNumber);
