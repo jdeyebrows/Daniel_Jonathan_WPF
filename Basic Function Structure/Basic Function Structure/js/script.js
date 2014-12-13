@@ -1,9 +1,13 @@
-//Functions - Returning Values
+//Functions - Anonymous Functions
 
-var total = calcArea(30, 20);
 
-function calcArea(w, h){
-    var area = w * h;
+var calcArea = function(width, height){
+//code the function runs
+    var area = width * height;
     return area;
 }
-console.log(total);
+
+var a = calcArea(20, 30);
+
+console.log(a);
+
