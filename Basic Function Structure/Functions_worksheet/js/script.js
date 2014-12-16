@@ -11,10 +11,11 @@ calcCirc(radius, 2, 3.14);
 function calcCirc(a, b, c){
 
     var circumference = a * b * c;
+    return circumference;
 
-    console.log(circumference)
 
 }
+console.log(circumference);
 
 
 
