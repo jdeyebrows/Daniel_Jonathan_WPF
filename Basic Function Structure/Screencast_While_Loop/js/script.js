@@ -9,6 +9,9 @@ while(b > 0){ //Checks the condition
     b--; //Increments or decrements the index
 }
 
+
+
+
 console("-----Do While Loops")
 
 var c = 10;
@@ -18,3 +21,12 @@ do{
     c--;
 }
 while(c > 0);
+
+
+
+
+console.log("-----For Loops-----")
+
+for(var i = 10; i > 0; i--){
+    console.log(i + "This is Cool!")
+}
