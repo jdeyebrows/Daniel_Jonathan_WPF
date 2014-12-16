@@ -10,9 +10,9 @@ var total = calcCircumference(radius, 2, 3.14); //variable assigned to the funct
 
 function calcCircumference(a, b, c){ //indicates what values will be used
 
-    var circumference = a * b * c;
+    var circumference = a * b * c; //variable within the function which uses multiplication to calculate circumference
 
-    return circumference;
+    return circumference; //gives the command to return circumference value to designated variable
 }
 console.log(total); //prints the information collected by the variable assigned to the function call
 
