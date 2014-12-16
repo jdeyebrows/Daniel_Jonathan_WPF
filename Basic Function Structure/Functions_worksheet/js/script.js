@@ -6,16 +6,15 @@
 
 var radius = 12;
 
-calcCirc(radius, 2, 3.14);
+var total = calcCircumference(radius, 2, 3.14);
 
-function calcCirc(a, b, c){
+function calcCircumference(a, b, c){
 
     var circumference = a * b * c;
+
     return circumference;
-
-
 }
-console.log(circumference);
+console.log(total);
 
 
 
