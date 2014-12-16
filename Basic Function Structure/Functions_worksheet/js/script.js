@@ -4,9 +4,19 @@
 
 //Calculate the circumference of a circle
 
-var radius = 10;
+var radius = 12;
 
-var circumference = calcCircumference(radius * 2 * 3.14)
+calcCirc(radius, 2, 3.14);
+
+function calcCirc(a, b, c){
+
+    var circumference = a * b * c;
+
+    console.log(circumference)
+
+}
+
+
 
 
 //Stung
