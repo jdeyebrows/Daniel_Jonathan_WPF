@@ -6,7 +6,7 @@
 
 var radius = 10;
 
-
+var circumference = calcCircumference(radius * 2 * 3.14)
 
 
 //Stung
