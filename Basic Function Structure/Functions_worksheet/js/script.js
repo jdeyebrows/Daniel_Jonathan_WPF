@@ -4,9 +4,9 @@
 
 //Calculate the circumference of a circle
 
-var radius = 12;
+var radius = 12; //holds the value of the radius of the circle
 
-var total = calcCircumference(radius, 2, 3.14);
+var total = calcCircumference(radius, 2, 3.14); //variable assigned to the function call
 
 function calcCircumference(a, b, c){
 
@@ -20,6 +20,8 @@ console.log(total);
 
 
 //Stung
+
+
 
 
 
