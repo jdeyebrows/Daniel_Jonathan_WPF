@@ -21,6 +21,10 @@ console.log(total); //prints the information collected by the variable assigned 
 
 //Stung
 
+//Calculate the number of bee stings it would take to kill an animal based on weight in pounds
+
+var weight = 270; //holds the value of the victim's weight in pounds
+
 
 
 
