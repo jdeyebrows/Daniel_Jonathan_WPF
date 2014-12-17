@@ -25,7 +25,9 @@ console.log(total); //prints the information collected by the variable assigned 
 
 var weight = 270; //holds the value of the victim's weight in pounds
 
-var total = calcStingNo(weight, 8.666666667);
+var total = calcStingNo(weight, 8.666666667); //variable assigned to the function call
+
+
 
 
 
