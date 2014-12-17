@@ -14,7 +14,7 @@ function calcCircumference(a, b, c){ //indicates what values will be used
 
     return circumference; //gives the command to return circumference value to designated variable
 }
-console.log(total); //prints the information collected by the variable assigned to the function call
+console.log("The Circumference of the circle is " + total); //prints the information collected by the variable assigned to the function call
 
 
 
