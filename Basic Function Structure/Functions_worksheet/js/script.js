@@ -27,7 +27,11 @@ var weight = 270; //holds the value of the victim's weight in pounds
 
 var total = calcStingNo(weight, 8.666666667); //variable assigned to the function call
 
+function calcStingNo(a, b){ //indicates the values that will be used
 
+    
+
+}
 
 
 
