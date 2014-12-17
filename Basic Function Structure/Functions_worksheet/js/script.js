@@ -31,6 +31,7 @@ function calcStingNo(a, b){ //indicates the values that will be used
 
     var stingNo = a * b; //variable within the function that uses multiplication to calculate number of stings needed
 
+    return stingNo; //gives the command to return sting number to designated variable
 }
 
 
