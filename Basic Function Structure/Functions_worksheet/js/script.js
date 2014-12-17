@@ -33,7 +33,7 @@ function calcStingNo(a, b){ //indicates the values that will be used
 
     return stingNo; //gives the command to return sting number to designated variable
 }
-console.log(total); //prints the information collected by the variable to the function call
+console.log("It will take " + total + "stings to kill an animal that weighs " + weight + "pounds."); //prints the information collected by the variable to the function call
 
 
 
