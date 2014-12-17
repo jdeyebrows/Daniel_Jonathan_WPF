@@ -29,7 +29,7 @@ var total = calcStingNo(weight, 8.666666667); //variable assigned to the functio
 
 function calcStingNo(a, b){ //indicates the values that will be used
 
-    
+    var stingNo = a * b; //variable within the function that uses multiplication to calculate number of stings needed
 
 }
 
