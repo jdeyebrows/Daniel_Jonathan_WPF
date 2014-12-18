@@ -21,3 +21,15 @@ while(maxGig==="" || isNaN(maxGig)){ //This while loop uses the or operator to c
     }
 }
 
+//This variable prompts the user for the minimum value
+var minGig = prompt("Please enter the minimum amount of data storage you think you might have on your hard drive");
+//Combined loop validation
+while(minGig==="" || isNaN(minGig)){ //This while loop uses the or operator to compare the 2 conditions
+    if(minGig===""){ //This if statement determine whether or not the user will be re-prompted based on input
+        //This re-prompts the user
+        minGig=prompt("Please do not leave blank!\nPlease enter the minimum amount of data storage you think you might have."); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
+    }else{ //This line of code runs if the the field is not blank but is not a number
+        minGig=prompt("Please only type in numbers!\nPlease enter the minimum amount of data storage you think you might have."); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
+    }
+}
+
