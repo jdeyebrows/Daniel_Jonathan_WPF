@@ -9,4 +9,15 @@
 //and will have to randomly find out how much space you have. Fortunately, you can determine the minimum
 //and maximum capacity.
 
-//
+//This variable prompts the user for the maximum value
+var maxGig = prompt("Please enter the maximum amount of data storage you think you might have on your hard drive");
+//Combined loop validation
+while(maxGig==="" || isNaN(maxGig)){ //This while loop uses the or operator to compare the 2 conditions
+    if(maxGig===""){ //This if statement determine whether or not the user will be re-prompted based on input
+        //This re-prompts the user
+        maxGig=prompt("Please do not leave blank!\nPlease enter the maximum amount of data storage you think you might have."); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
+    }else{ //This line of code runs if the the field is not blank but is not a number
+        maxGig=prompt("Please only type in numbers!\nPlease enter the maximum amount of data storage you think you might have."); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
+    }
+}
+
