@@ -55,7 +55,7 @@ function calcAverage(a, b, c, d){
 if(earnAverage > currentMo){
     console.log("It's a reasonable decision to spread your wings and fly!")
 }else if(currentMo <= earnAverage + 500 ){
-    console.log("Since you'll be making a little less, you're going to find a way to earn a little extra to maintain of exceed your current salary.")
+    console.log("Since you'll be making a little less, you're going to have to find a way to earn a little extra to maintain of exceed your current salary.")
 }else{
     console.log("Don't starve! You need to hold on to your job for a little while longer.")
 }
