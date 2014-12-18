@@ -56,5 +56,4 @@ var results = randomizr(minGig, maxGig); //Argument that goes to the function ca
 
 var gigsLeft = results - (hrsInfctd * 4) //This variable uses subtraction and multiplication to determine remaining un corrupted data
 
-
-console.log(gigsLeft); //Prints to the console
+console.log("Your hard drive has a capacity of " + results + " gigabytes, and you have " + gigsLeft + " gigabytes remaining after " + hrsInfctd + " hours.") //Prints the results to the console
