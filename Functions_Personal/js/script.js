@@ -47,7 +47,8 @@ while(monthThree==="" || isNaN(monthThree)){
 
 var earnAverage = calcAverage(monthOne, monthTwo, monthThree, 3);
 function calcAverage(a, b, c, d){
-    var hustleAverage = a + b + c / d;
+    var hustleAverage = ( Number(a) + Number(b) + Number(c))/ d;
+    console.log(hustleAverage)
     return hustleAverage;
 }
 
