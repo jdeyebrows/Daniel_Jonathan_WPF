@@ -8,11 +8,11 @@ while(currentMo==="" || isNaN(currentMo)){
         //This re-prompts the user
         currentMo=prompt("Please do not leave blank!\nPlease enter your earnings for month one"); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
     }else{
-        currentMo=prompt("Please only type in numbers!\nPlease enter your earning for month one"); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
+        currentMo=prompt("Please only type in numbers!\nPlease enter your earning for month one"); //Prompts the user to enter after incorrect data is entered info to be passed to the variable
     }
 }
 
-var monthOne = prompt("Please enter your earnings for month one.") //Prompts the user
+var monthOne = prompt("Please enter your earnings for month one.") //Prompts the user to enter info to be passed to the variable
 //Combined loop validation
 while(monthOne==="" || isNaN(monthOne)){
     if(monthOne===""){
@@ -23,7 +23,7 @@ while(monthOne==="" || isNaN(monthOne)){
     }
 }
 
-var monthTwo = prompt("Please enter your earnings for month two") //Prompts the user
+var monthTwo = prompt("Please enter your earnings for month two") //Prompts the user to enter info to be passed to the variable
 //Combined loop validation
 while(monthTwo==="" || isNaN(monthTwo)){
     if(monthTwo===""){
@@ -34,7 +34,7 @@ while(monthTwo==="" || isNaN(monthTwo)){
     }
 }
 
-var monthThree = prompt("Please enter your earnings for month three") //Prompts the user
+var monthThree = prompt("Please enter your earnings for month three") //Prompts the user to enter info to be passed to the variable
 //Combined loop validation
 while(monthThree==="" || isNaN(monthThree)){
     if(monthThree===""){
@@ -47,15 +47,14 @@ while(monthThree==="" || isNaN(monthThree)){
 
 var earnAverage = calcAverage(monthOne, monthTwo, monthThree, 3);
 function calcAverage(a, b, c, d){
-    var hustleAverage = ( Number(a) + Number(b) + Number(c))/ d;
-    console.log(hustleAverage)
+    var hustleAverage = a + b + c / d;
     return hustleAverage;
 }
 
 if(earnAverage > currentMo){
     console.log("It's a reasonable decision to spread your wings and fly!")
 }else if(currentMo <= earnAverage + 500 ){
-    console.log("Since you'll be making a little less, you're going to have to find a way to earn a little extra to maintain of exceed your current salary.")
+    console.log("Since you'll be making a little less, you're going to find a way to earn a little extra to maintain of exceed your current salary.")
 }else{
     console.log("Don't starve! You need to hold on to your job for a little while longer.")
 }
