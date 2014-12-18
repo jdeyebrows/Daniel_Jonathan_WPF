@@ -45,17 +45,17 @@ while(monthThree==="" || isNaN(monthThree)){ //This while loop uses the or opera
     }
 }
 
-var earnAverage = calcAverage(monthOne, monthTwo, monthThree, 3);
-function calcAverage(a, b, c, d){
-    var hustleAverage = ( Number(a) + Number(b) + Number(c))/ d;
-    console.log(hustleAverage)
-    return hustleAverage;
+var earnAverage = calcAverage(monthOne, monthTwo, monthThree, 3); //This code defines the parameters
+function calcAverage(a, b, c, d){ //Sets up the function call
+    var hustleAverage = ( Number(a) + Number(b) + Number(c))/ d; //This is the code the function runs
+    console.log(hustleAverage) //Prints the result to the console
+    return hustleAverage; //Returns the Average to the variable
 }
 
-if(earnAverage > currentMo){
-    console.log("It's a reasonable decision to spread your wings and fly!")
-}else if(currentMo <= earnAverage + 500 ){
-    console.log("Since you'll be making a little less, you're going to have to find a way to earn a little extra to maintain of exceed your current salary.")
-}else{
-    console.log("Don't starve! You need to hold on to your job for a little while longer.")
+if(earnAverage > currentMo){ //This if statement presents the conditional to be tested
+    console.log("It's a reasonable decision to spread your wings and fly!") //If the statement is true it is printed to the console
+}else if(currentMo <= earnAverage + 500 ){ //This else if statement runs if the if statement is not true
+    console.log("Since you'll be making a little less, you're going to have to find a way to earn a little extra to maintain of exceed your current salary.") //This result is printed to the console if the if else statement is true
+}else{ //This else statement is the final decision in the process given that both the if and else if statements are false
+    console.log("Don't starve! You need to hold on to your job for a little while longer.") //Prints the final result to the console
 }
