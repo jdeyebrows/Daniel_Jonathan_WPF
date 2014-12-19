@@ -28,24 +28,24 @@ while(photoFolders==="" || isNaN(photoFolders)){ //This while loop uses the or o
     }
 }
 
-var freePack = prompt("") //Prompts the user
+var budget = prompt("What is your budget for royalty free images?") //Prompts the user
 //Combined loop validation
-while(freePack==="" || isNaN(freePack)){ //This while loop uses the or operator to compare the 2 conditions
-    if(freePack===""){ //This if statement determine whether or not the user will be re-prompted based on input
+while(budget==="" || isNaN(budget)){ //This while loop uses the or operator to compare the 2 conditions
+    if(budget===""){ //This if statement determine whether or not the user will be re-prompted based on input
         //This re-prompts the user
-        freePack=prompt(""); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
+        budget=prompt(""); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
     }else{ //This line of code runs if the the field is not blank but is not a number
-        freePack=prompt(""); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
+        budget=prompt(""); //Prompts the user after incorrect data is entered to enter info to be passed to the variable
     }
 }
 
 
 var packTotal = calcTotal(stockPhotos, photoFolders); //This code defines the parameters
 function calcTotal(a, b){ //Sets up the function call
-    var packPrice = ( Number(a) + Number(b)); //This is the code the function runs
+    var packPrice = ( Number(a) * Number(b)); //This is the code the function runs
     return packPrice; //Returns the Average to the variable
 }
 
 console.log(packTotal);
-packTotal = (yyyyy * zzzzz >= aaaaa) ? "" : ""
+doIBuy = (budget >= packTotal) ? "I can buy the stock photography and start on my client's website." : "I'd better search from some free images or come up with some original artwork."
 
